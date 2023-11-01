@@ -1,196 +1,151 @@
-
-
-body
-{
-    margin: 0;
+body {
+  margin: 0;
 }
-.navbar
-{
-   
-    width:1350px;
-    background-color: rgb(231, 224, 224);
-    display: flex;
-    justify-content: space-between;
-    font-size:small;
-     color: black;
-     
-    
-    
+.navbar {
+  width: 1350px;
+  background-color: rgb(231, 224, 224);
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+  color: black;
 }
-.navbar a
-{
-    color: black;
+.navbar a {
+  color: black;
 }
-.navitemleft
-{
-    
-    margin-left: 6.5%;
-    display:inline-flex;
-    align-items: center;
-    
-    
-    
+.navitemleft {
+  margin-left: 6.5%;
+  display: inline-flex;
+  align-items: center;
 }
-.navitemright
-{
-    margin-right: 6.5%;
-    display: flex;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-around;
-     width: 40%;
+.navitemright {
+  margin-right: 6.5%;
+  display: flex;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
 }
-.headbar a{
-    color: black;
+.headbar a {
+  color: black;
 }
 
-.headbar
-{
-    display: flex;
-    justify-content: space-between;
-    width:100%;
-    
-    
-  
-   
+.headbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
-.lefthead
-{
-     margin-left: 6.5%;
-    display:flex;
+.lefthead {
+  margin-left: 6.5%;
+  display: flex;
 }
-.righthead
-{
-  
-    text-align: right;
-    display:flex;
-    margin-right:6.5%;
-    justify-content: space-around;
-    width:60%;    
+.righthead {
+  text-align: right;
+  display: flex;
+  margin-right: 6.5%;
+  justify-content: space-around;
+  width: 60%;
 }
-.righthead a:hover
-{
-    color: red;
+.righthead a:hover {
+  color: red;
 }
 
-.mainpic
-{
-    position: relative;
-    text-align: center;
-        
-       
-       
+.mainpic {
+  position: relative;
+  text-align: center;
 }
-.pic img
-{
-    text-align: center;
-    width: 87%;
-   
-
-    
+.pic img {
+  text-align: center;
+  width: 87%;
 }
 
-.textoverimagemain
-{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
-    text-align: left;
-    color: black;
-    position: absolute;
-    bottom: 60%;
-    left: 15%;
-    width: 50%;
-    
+.textoverimagemain {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  text-align: left;
+  color: black;
+  position: absolute;
+  bottom: 60%;
+  left: 15%;
+  width: 50%;
 }
-.textoverimagesub
-{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    color: black;
-    position: absolute;
-    bottom: 50%;
-    left: 15%;
+.textoverimagesub {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  color: black;
+  position: absolute;
+  bottom: 50%;
+  left: 15%;
 }
 
-.button1
-{
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    background-color: rgb(36, 197, 149);
-    border: none;
-    color: white;
-    width: auto;
-    padding: 15px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    
-    bottom: 40%;
-    left: 15%;
-}
-.doctortalk
-{
+.button1 {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  background-color: rgb(36, 197, 149);
+  border: none;
+  color: white;
+  width: auto;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 
-    margin-left: 2%;
-    display:flex;
-    position: absolute;
-    bottom: 42%;
-    left: 30%;
-    width:50%;
-    height:5%;
-    align-items: center;
+  bottom: 40%;
+  left: 15%;
 }
-.vid
-{
-    display: inline-flex;
-
+.doctortalk {
+  margin-left: 2%;
+  display: flex;
+  position: absolute;
+  bottom: 42%;
+  left: 30%;
+  width: 50%;
+  height: 5%;
+  align-items: center;
 }
-.doctext
-{
-    
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    display:inline-flex;
-    margin-left: 1%;
-   
+.vid {
+  display: inline-flex;
 }
-
-
+.doctext {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  display: inline-flex;
+  margin-left: 1%;
+}
 
 .formcontent {
-    background-color: #ffffff;
-    position: absolute;
-    width: 65%;
-    border-radius: 20px;
-    
-    margin-left: 170px;
-    margin-top: -120px;
-    
-  }
-  .formcontent h3 {
-    padding-left: 30px;
-  }
-  .formbox {
-    margin-left: 10px;
-    display: flex;
-  }
-  .formbox1 {
-    display: flex;
-  }
-  input {
-    border-radius: 6px;
-    border: 1px solid;
-    height: 40px;
-    width: 250px;
-    margin: 10px;
-  }
- 
-  
-   
-  .formbox .button1
-{
-    /* font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  position: absolute;
+  width: 65%;
+  border-radius: 20px;
+
+  padding-bottom: 50px;
+  margin-left: 170px;
+  margin-top: -120px;
+  box-shadow: 1px 1px rgb(209, 207, 207);
+}
+.formcontent h3 {
+  padding-left: 30px;
+}
+.formbox {
+  margin-left: 10px;
+  display: flex;
+}
+.formbox1 {
+  display: flex;
+}
+input {
+  border-radius: 6px;
+  border: 1px solid;
+  height: 40px;
+  width: 250px;
+  margin: 10px;
+}
+
+.formbox .button1 {
+  /* font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     background-color: rgb(36, 197, 149);
     border: none;
@@ -201,70 +156,185 @@ body
     text-decoration: none;
     display: inline-block;
     font-size: 16px; */
-    
-    padding: 15px 48px;
-    bottom: 5%;
-    left: 65.5%;
+
+  padding: 15px 48px;
+  bottom: 60px;
+  left: 65.5%;
+  cursor: pointer;
 }
 
-.sectiontwo
-{
-    margin-top:10%;
-    margin-left: 6.5%;
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
+.sectiontwo {
+  margin-top: 10%;
+  margin-left: 6.5%;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.fleximage
-{
-    margin-left: 6.5%;
-    display: flex;
-    margin-right: 6.5%;
-    justify-content:space-between;
+.fleximage {
+  margin-left: 6.5%;
+  display: flex;
+  margin-right: 6.5%;
+  justify-content: space-between;
 }
-.flex1 h2
-{
-    
-    display: flex;
+.flex1 h2 {
+  display: flex;
 }
 
-.flexcontainer
-{
-    flex-flow: row wrap;
+.flexcontainer {
+  flex-flow: row wrap;
 }
-.flexmaincontent
-{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 6.5%;
-    display: flex;
-    margin-right: 6.5%;
-    justify-content:space-between;
-   
-  
-   
+.flexmaincontent {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 6.5%;
+  display: flex;
+  margin-right: 6.5%;
+  justify-content: space-between;
 }
-.flexcontent
-{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 6.5%;
-    display: flex;
-    margin-right: 6.5%;
-    justify-content:space-between;
-   
-  
-   
+.flexcontent {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 6.5%;
+  display: flex;
+  margin-right: 6.5%;
+  justify-content: space-between;
 }
-.flexreadmore 
-{
-    
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    margin-left: 6.5%;
-    margin-right: 6.5%;
-    justify-content:space-between;
-    align-items: flex-start;  
-  
+.flexreadmore {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  margin-left: 6.5%;
+  margin-right: 6.5%;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-  
-  
+.threedoc {
+  margin-top: 200px;
+  background-color: #e8f9f6;
+  margin-left: 6.5%;
+
+  height: 600px;
+  width: 1180px;
+  position: relative;
+}
+.docmask img {
+  height: 600px;
+  width: 1180px;
+}
+.threedocpic img {
+  position: absolute;
+  height: 600px;
+  width: 900px;
+  bottom: 1px;
+}
+.threedocmaintext {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  bottom: 200px;
+  left: 800px;
+}
+.threedocmaintext li {
+  list-style-image: url(tick2.jpg);
+
+  margin: 5px 0;
+  font-size: small;
+}
+
+.threedocmaintext1 {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  bottom: 420px;
+  left: 818px;
+}
+.specialist {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 100px;
+  align-items: center;
+}
+.specialistmaintext {
+  text-align: center;
+}
+.specialistmaintext p {
+  color: #211e1e;
+}
+.specialistmaintext h2 {
+  font-size: 28px;
+}
+.flexspecialist {
+  display: flex;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.flexspecialist1 {
+  flex: 1;
+  text-align: center;
+  margin-top: 2%;
+}
+.flexspecialist1 img {
+  height: 310px;
+  width: 250px;
+}
+.flexspecialist1 p {
+  color: #211e1e;
+}
+
+.button2 {
+  font-family: Arial, Helvetica, sans-serif;
+
+  background-color: rgb(36, 197, 149);
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 12px 40px;
+  margin-top: 2%;
+  margin-left: 45%;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.facilities {
+  margin-top: 10%;
+}
+
+.facilitiescontent {
+    margin-left: 100px;
+    margin-right: 20px;
+  display: flex;
+  margin-top: 2%;
+}
+.facilitiestext {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.facilitiesimage {
+  flex: 1;
+}
+.facilitiesimage img {
+    height: 250px;
+    width: 350px;
+  }
+
+
+
+  .surgery
+  {
+   
+margin-top: 15%;
+  }
+  .surgerysub
+  {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-top: 2%;
+  }
+  .surgeryhead
+  {
+ text-align: center;
+  }
+  .surgerycontent
+  {
+flex:1;
+  }
+  .surgerycontent img
+  {
+    height: 250px;
+    width: 400px;
+  }
