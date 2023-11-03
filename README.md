@@ -16,16 +16,6 @@ The page has the following contents included:
 8. Footer
 9. Newsletter
 
-![Screenshot (72)]()
-![Screenshot (73)]()
-![Screenshot (74)]()
-![Screenshot (75)]()
-![Screenshot (76)]()
-![Screenshot (77)]()
-![Screenshot (78)]()
-![Screenshot (79)]()
-
-
 ## Screenshots
 1. Navbar
 <img width="960" alt="Landing Page" src="https://github.com/varkeyenjaliath/GG-Hospital/assets/74854149/e8c0264a-50a6-4027-9416-c795482b9a08">
