@@ -8,13 +8,12 @@ HTML and CSS training did during my ILP period. Designed the Home page of GG Hos
 The page has the following contents included:
 1. Navigation Bar
 2. Book Appointment
-3. Doctors Listed
-4. Departments Listed
-5. Why GG is better section
+3. Our Department
+4. Why GG
+5. Meet Our Specialist
 6. Facilities and Activities
 7. You May Be Interested In section
-8. Footer
-9. Newsletter
+8. Footer+Subscribe
 
 ## Screenshots
 1. Navbar
